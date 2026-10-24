@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  "routeKey": "$default",
+  "rawPath": "/predict",
+  "rawQueryString": "",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "requestContext": {
+    "http": {
+      "method": "POST",
+      "path": "/predict",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "127.0.0.1",
+      "userAgent": "elasticai-test"
+    }
+  },
+  "body": "{\"text\":\"I love this project\"}",
+  "isBase64Encoded": false
+}
